@@ -1,6 +1,6 @@
 ###  MEGA ACCOUNT GENERATOR 2022
 
-・ Crear cuenta de mega y lo verifica al mismo instante
+・ Crear cuenta de mega y lo verifica al mismo instante.
 
 ・ crea cuenta.
 
@@ -8,12 +8,12 @@
 
 ・ Verifica el email con que se crea la cuenta en mega.
 
-・ Crear un bloc de Notas donde guarda las credenciales en la cuenta creada
+・ Crear un bloc de Notas donde guarda las credenciales en la cuenta creada.
 
 ***
 FUTURE
 
-- Use api de Telegram para poder crear cuentas con solo darle crear desde el bot
+- Use api de Telegram para poder crear cuentas con solo darle crear desde el bot.
 
 - Usar proxi o la red de tor.
 
