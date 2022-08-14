@@ -10,7 +10,6 @@ import time
 import random
 import string
 import os
-import subprocess
 import sys
 
 os.system(f'{sys.executable} -m pip install -r requirements.txt')
@@ -73,8 +72,6 @@ def rellena_formulario():
         driver.find_element(By.XPATH, '//*[@id="register_form"]/div[8]/div[1]/input').click()
         driver.find_element(By.XPATH, '//*[@id="register-check-registerpage2"]').click()
         driver.find_element(By.XPATH, '//*[@id="register_form"]/button').click()
-        time.sleep(2)
-
         WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CLASS_NAME, 'reg-resend-email-txt')))
         succes = driver.find_element(By.CLASS_NAME, 'reg-resend-email-txt').text
         if succes is not "":
@@ -92,7 +89,7 @@ def confirmar_registro():
     driver.switch_to.window(driver.window_handles[1])
     for refresh in range(0,20):
         try:
-            WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//*[@id="inbox-dataList"]/a/div/div[1]/div[1]')))
+            WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.XPATH, '//*[@id="inbox-dataList"]/a/div/div[1]/div[1]')))
             driver.find_element(By.XPATH, '//*[@id="inbox-dataList"]/a/div/div[1]/div[1]').click()
             break
         except:
@@ -111,10 +108,10 @@ def confirmar_registro():
 def guarda_usuario():
     clear()
     with open('usuarios.txt', 'a') as f:
-        f.write('USERNAME: '+username + '\n')
-        f.write('PASSWORD: '+final_password + '\n')
-        f.write('EMAIL: '+abre_web2() + '\n')
-        f.write('HORA DE REGISTRO: '+time.strftime("%H:%M:%S") + '\n')
+        f.write('USERNAME: '+ username + '\n')
+        f.write('PASSWORD: '+ final_password + '\n')
+        f.write('EMAIL: '+ abre_web2() + '\n')
+        f.write('HORA DE REGISTRO: '+ time.strftime("%H:%M:%S") + '\n')
         f.write('\n')
         f.write('****************************** DEV: ANDSSES ***************************' + '\n')
         f.write('\n')
