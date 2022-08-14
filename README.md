@@ -1,7 +1,7 @@
 ###  MEGA ACCOUNT GENERATOR 2022
-```sh-session
-Crear cuenta de mega y lo verifica al mismo instante
-```
+
+・ Crear cuenta de mega y lo verifica al mismo instante
+
 ・ crea cuenta.
 
 ・ Obtiene un email temporal.
