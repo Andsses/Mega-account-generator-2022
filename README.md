@@ -30,8 +30,6 @@ FUTURE
 
 ### 🤓 Services 
 
-* ` Product Warranty | If banned = Refund | Spoofer not working = Refund `
-
 - Additional questions For the Product [Announcement](https://github.com/andsses/Announcement)
 
                           
