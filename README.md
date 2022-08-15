@@ -2,13 +2,11 @@
 
 ・ Crear cuenta de mega y lo verifica al mismo instante.
 
-・ crea cuenta.
-
 ・ Obtiene un email temporal.
 
-・ Verifica el email con que se crea la cuenta en mega.
+・ Verifica el email con el que se crea la cuenta en mega.
 
-・ Crear un bloc de Notas donde guarda las credenciales en la cuenta creada.
+・ Crea un bloc de Notas donde guarda las credenciales de la cuenta creada.
 
 ***
 FUTURE
