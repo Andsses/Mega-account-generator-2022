@@ -3,7 +3,6 @@ from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC  
-from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 from fake_useragent import UserAgent
 import time
@@ -23,7 +22,6 @@ options.add_argument("--headless")
 options.add_argument("--log-level=3")
 options.add_argument(f'user-agent={agente}')
 driver = webdriver.Chrome(options=options, executable_path=r"chromedriver.exe")
-actions = ActionChains(driver)
 username = ''.join(random.choice(string.digits + string.ascii_letters) for i in range(10))
 last_username = ''.join(random.choice(string.digits + string.ascii_letters) for i in range(8))
 password = ''.join(random.choice(string.digits + string.ascii_letters) for i in range(16))
