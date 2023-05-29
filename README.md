@@ -1,35 +1,34 @@
-###  MEGA ACCOUNT GENERATOR 2022
+### MEGA ACCOUNT GENERATOR 2022
 
-・ Crear cuenta de mega y lo verifica al mismo instante.
+・ Create mega account and verify it instantly.
 
-・ Obtiene un email temporal.
+・ Get a temporary email.
 
-・ Verifica el email con el que se crea la cuenta en mega.
+・ Verify the email with which the account is created in mega.
 
-・ Crea un bloc de Notas donde guarda las credenciales de la cuenta creada.
+・ Create a Notepad where you save the credentials of the created account.
 
 ***
 FUTURE
 
-- Use api de Telegram para poder crear cuentas con solo darle crear desde el bot.
+- Use Telegram's api to be able to create accounts just by clicking create from the bot.
 
-- Usar proxi o la red de tor.
+- Use proxy or tor network.
 
-- Usar multi hilos, para acelerar el trabajo.
+- Use multi threads, to speed up the work.
 
 
 ***
  
-### 💬 DISCORD ・ [GROUP](https://discord.gg/KGUDgmhW) 
+### 💬 DISCORD ・ [GROUP](https://discord.gg/KGUDgmhW)
 
 
-* ` 🛒: Product :  BOT | SCRAPING | MEGA`
-* ` 📌: Update Free | Undetected ` 
+* ` 🛒: Product : BOT | SCRAPING | MEGA`
+* ` 📌: Update Free | Undetected `
 
-### 🤓 Services 
+### 🤓Services
 
 - Additional questions For the Product [Announcement](https://github.com/andsses/Announcement)
 
                           
-  
- Copyright © 2022
+  @x0andy
